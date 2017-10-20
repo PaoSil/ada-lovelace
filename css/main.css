@@ -1,0 +1,26 @@
+h1{
+  outline: 1px solid green;
+  text-align: center;
+}
+
+.caja{
+  /*pocas veces se figura el heigth, el alto es el alto del contenido*/
+  /*outline: 1px solid red;-->solo para ver como se alinean mis elementos HTML, es una ayuda visual*/
+  width: 30%;/*el ancho del contenido*/
+  padding: 10px;
+  border: 1px solid #999;
+  margin: 10px;
+  /*el width total del contenido= width+padding+border+margin*/
+  box-sizing: border-box;/*le suma el borden y el padding*/
+  float: left;
+
+}
+
+img{
+  outline: 1px solid blue;
+  max-width: 100%; /*--> ajusta el tamaño de la imagen a su contenedor*/
+}
+
+p{
+  outline: 1px solid blue;
+}
